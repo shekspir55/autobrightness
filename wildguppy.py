@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import Image
-import ImageStat
+from PIL import Image
+from PIL import ImageStat
 import math
 import os
 import time
