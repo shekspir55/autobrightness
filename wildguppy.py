@@ -74,7 +74,7 @@ class autoBrightness():
         new_set = (brightnessLevel * 100)/120
         print "\n"
         print new_set
-        os.system('xbacklight -set %s' % str(new_set))
+        os.system('acpilight -steps 100 -set %s' % str(new_set))
         return True
                 
 if __name__ == "__main__":
